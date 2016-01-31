@@ -1,34 +1,25 @@
 html,body {
   height:100%;
+  background-color: #BDC3C7;
 }
 
-h1 {
-  font-family: Arial,sans-serif
-  font-size:80px;
-  color:#DDCCEE;
+.navbar {
+  background-color: #D23333;
+  color: white;
 }
 
-.lead {
-	color:#DDCCEE;
+.thumbnail {
+  padding: 0;
+  border: none;
+  background-color: #ECF0F1;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+  border-radius: 8px;
 }
 
-
-/* Custom container */
-.container-full {
-  margin: 0 auto;
-  width: 100%;
-  min-height:100%;
-  background-color:#bdc3c7;
-  color:#eee;
-  overflow:hidden;
+.caption {
+  color: #2C3E50;;
 }
 
-.container-full a {
-  color:#efefef;
-  text-decoration:none;
+#calendar {
+  top: 100px;
 }
-
-.v-center {
-  margin-top:7%;
-}
-

@@ -3,9 +3,43 @@ html,body {
   background-color: #f4f3ef;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+}
+
+strong{
+  font-weight: 600;
+}
+
+.thumbnail h3
+{
+  margin: 20px;
+  text-align: center;
+}
+
+.row h3 , h5
+{
+  margin: 20px;
+  text-align: center;
+}
+
 .navbar {
   background-color: #D23333;
   color: white;
+  text-align: center;
+}
+.navbar h2
+{
+  margin-bottom: 20px;
+}
+.navbar h6
+{
+  margin-top: 20px;
+}
+.unconfirmed
+{
+  opacity: .2
 }
 
 .thumbnail {

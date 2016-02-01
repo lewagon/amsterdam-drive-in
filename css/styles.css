@@ -20,6 +20,7 @@ html,body {
   color: #2C3E50;;
 }
 
-#calendar {
-  top: 100px;
+#spacer {
+  top: 80px;
+  position: relative;
 }
